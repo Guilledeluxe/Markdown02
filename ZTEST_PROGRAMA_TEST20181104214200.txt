@@ -1,0 +1,13 @@
+##  REPORT ztest_programa_test.
+**SUBMIT** ZATC_TEST
+**CALL FUNCTION** 'BAPI_USER_GETLIST'
+**SUBMIT** ZAVH_POPULATE_MS_TABLES
+~~~
+  SELECT SINGLE a~bukrs
+    INTO @DATA(lv_bukrs)
+    FROM bkpf AS a
+    INNER JOIN bseg AS b ON a~belnr EQ b~belnr
+    INNER JOIN t001 AS c ON a~bukrs EQ c~bukrs.
+~~~
+**SUBMIT** ZPRUEBA_REPSOL
+**CALL METHOD** ZMARK_CL_API_MERMAID=>GET_INSTANCE
