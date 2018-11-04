@@ -1,3 +1,11 @@
+
+|
+|  `enter code here`|  |
+|--|--|
+|  |  |
+|  |
+|--|--|
+|  |  |
 # Welcome to StackEdit!
 
 Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about StackEdit, you can read me. If you want 
@@ -143,5 +151,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4MzM3MDQzXX0=
+eyJoaXN0b3J5IjpbOTM1ODM5NzEyLDIwODMzNzA0M119
 -->
